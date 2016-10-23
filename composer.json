@@ -1,6 +1,7 @@
 {
     "name": "julianmc90/webbake",
     "description": "webbake plugin for cakephp",
+    "minimum-stability": "stable",
     "type": "cakephp-plugin",
     "require": {
         "php": ">=5.4.16",
