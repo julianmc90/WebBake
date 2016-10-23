@@ -1,4 +1,7 @@
 
+/**
+ * get models
+ */
 function getModels(){
 
 	$.ajax({
@@ -15,6 +18,9 @@ function getModels(){
 }
 
 
+/**
+ * generate MVC
+ */
 function generate(type){
 
 	$.ajax({
@@ -32,6 +38,9 @@ function generate(type){
 
 }
 
+/**
+ * Generate components...
+ */
 function generateComponent(type){
 
 	$.ajax({
@@ -49,23 +58,38 @@ function generateComponent(type){
 
 }
 
+/**
+ * get selected model
+ * @return {[type]} [description]
+ */
 function getSelectedModel(){
 
 	return $('#selectModel').val();
 }
 
+/**
+ * get component name
+ * @return {[type]} [description]
+ */
 function getGenerateComponentName(){
 
 	return $('#generate-c-name').val().trim();
 }
 
 
+/**
+ * clear console
+ * @return {[type]} [description]
+ */
 function clearConsole(){
 
 	$('.console').html("");
 
 }
 
+/**
+ * show console log
+ */
 function consoleLog(input){
 
 	$('.console').html(input);
@@ -73,6 +97,9 @@ function consoleLog(input){
 }
 
 
+/**
+ * click on generate button
+ */
 $('.generate').click(function(){
 
 	clearConsole();
@@ -81,6 +108,9 @@ $('.generate').click(function(){
 });
 
 
+/**
+ * click on generate c button
+ */
 $('.generate-c').click(function(){
 
 	if(getGenerateComponentName() != ''){
@@ -96,5 +126,7 @@ $('.generate-c').click(function(){
 });
 
 
-
+/**
+ * getting models 
+ */
 getModels();

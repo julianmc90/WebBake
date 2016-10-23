@@ -29,7 +29,10 @@ class BakeController extends AppController
 	}
 
 	
-
+	/**
+	 * Function to get models
+	 * @return [type] [description]
+	 */
 	public function getModels(){
 
 		$this->autoRender = false;
@@ -50,6 +53,10 @@ class BakeController extends AppController
 
 	}
 
+	/**
+	 * function to generate code
+	 * @return [type] [description]
+	 */
 	public function generate(){
 
 
