@@ -9,3 +9,13 @@ The recommended way to install composer packages is:
 ```
 composer require julianmc90/webbake:dev-master@dev
 ```
+
+## Installation
+
+When instalation ends put this lines at the end of ```config/bootstrap.php```
+
+```
+Plugin::load('WebBake', ['bootstrap' => false, 'routes' => true]);
+
+Configure::write('WebBakeEnabled','true');
+```
