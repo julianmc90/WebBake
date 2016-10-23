@@ -39,9 +39,6 @@ proyect-name/web-bake/bake
 
 ## Screenshots
 
-
-
-
 <img src="https://github.com/julianmc90/webbake/blob/master/webroot/img/screenshot-home.png" width="80%" /> 
 
 <img src="https://github.com/julianmc90/webbake/blob/master/webroot/img/screenshot.png" width="80%" /> 
