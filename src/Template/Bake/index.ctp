@@ -1,4 +1,6 @@
 
+
+
 <?php 
 	use Cake\Routing\Router;
 
@@ -116,5 +118,7 @@
 <?php 
 
 	$this->Html->css('WebBake.bake', ['block' => true]);
+	
+	$this->Html->script('WebBake.bootstrap.min', array('block' => 'scriptBottom'));
 
 ?>

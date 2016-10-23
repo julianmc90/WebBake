@@ -56,6 +56,9 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 <body>
 
 
+
+
+
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -91,6 +94,10 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+
+
+
+
 
 
     <?= $this->Flash->render() ?>

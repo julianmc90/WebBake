@@ -135,6 +135,9 @@
 	$this->Html->css('WebBake.bake', ['block' => true]);
 
 	$this->Html->script('WebBake.jquery-3.min', array('block' => 'scriptBottom'));
+
+	$this->Html->script('WebBake.bootstrap.min', array('block' => 'scriptBottom'));
+
 	$this->Html->script('WebBake.bake', array('block' => 'scriptBottom'));
 
 ?>
