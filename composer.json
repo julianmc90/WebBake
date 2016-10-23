@@ -1,6 +1,6 @@
 {
-    "name": "julianmc90/WebBake",
-    "description": "WebBake plugin for CakePHP",
+    "name": "julianmc90/webbake",
+    "description": "webbake plugin for cakephp",
     "type": "cakephp-plugin",
     "require": {
         "php": ">=5.4.16",
