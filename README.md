@@ -14,7 +14,7 @@ composer require julianmc90/webbake:dev-master@dev
 
 When instalation ends put this lines at the end of ```config/bootstrap.php```
 
-```
+```php
 Plugin::load('WebBake', ['bootstrap' => false, 'routes' => true]);
 
 Configure::write('WebBakeEnabled','true');
