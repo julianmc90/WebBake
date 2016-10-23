@@ -29,5 +29,4 @@ Into your project main go to ```/web-bake/bake```
 Example:
 ```
 proyect-name/web-bake/bake
-
 ```
