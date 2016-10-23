@@ -23,3 +23,8 @@ Plugin::load('WebBake', ['bootstrap' => false, 'routes' => true]);
 
 Configure::write('WebBakeEnabled','true');
 ```
+
+## How to use
+Into your project main go to ```/web-bake/bake```
+Example:
+```proyect-name/web-bake/bake```
