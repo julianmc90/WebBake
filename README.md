@@ -1,5 +1,7 @@
 # WebBake plugin for CakePHP
 
+This is the web based console for CakePhp3, it makes easier the tasks to bake Controllers, Models, Templates and for baking other things like Components, Plugins Helpers and more...
+
 ## Requirements
 
 * CakePHP 3.0+
@@ -30,3 +32,4 @@ Example:
 ```
 proyect-name/web-bake/bake
 ```
+<img src="https://github.com/julianmc90/webbake/blob/master/webroot/img/screenshot.png" width="80%" /> 
