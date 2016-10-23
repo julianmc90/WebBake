@@ -27,6 +27,7 @@ Configure::write('WebBakeEnabled','true');
 ```
 
 finally change the code of the function createFile from the Shell.php File located in ```vendor\cakephp\cakephp\src\Console``` to look like this, put the highlighted code on the else statement of the new if that reads the WebBakeEnabled and your a ready to go.
+
 <img src="https://github.com/julianmc90/webbake/blob/master/webroot/img/changes.png" width="80%" /> 
 
 ## How to use
